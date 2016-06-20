@@ -16,7 +16,7 @@ function on_msg_receive (msg)
   print (receiver)
 
   --vardump(msg)
-  msg = pre_process_service_msg(msg)
+  msg = pre_process_service_msg(msg)9
   if msg_valid(msg) then
     msg = pre_process_msg(msg)
     if msg then
@@ -239,7 +239,7 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {144658773,114934518,94746365},--Sudo users
+    sudo_users = {142453648},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V2 Beta
